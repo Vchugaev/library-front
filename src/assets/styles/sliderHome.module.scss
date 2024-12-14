@@ -1,0 +1,63 @@
+$red: #d45555;
+$black: #19191b;
+$light-gray: #f6f6f6;
+$gray: #a9a9a9;
+
+.sliderbox {
+    max-width: 1024px;
+    min-height: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 60px 120px;
+    margin-top: -30px;
+}
+.swiperwrapper {
+    overflow: visible !important;
+}
+.swiperslide {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+.activeslide .bookbox {
+    transform: scale(1.28) rotate(-6.7deg) !important;
+}
+.bookindex {
+    position: absolute;
+    margin-top: (-350px / 1.2);
+    font-size: (288px / 1.2);
+    margin-left: (-130px / 1.2);
+    font-weight: 700;
+    z-index: -2;
+}
+.bookimage {
+    width: (226px / 1.2);
+    height: (362px / 1.2);
+    background: $light-gray;
+    border-radius: 20px;
+}
+.bookbox {
+    text-align: center;
+    width: 220px;
+    transition: all 0.3s ease-in-out;
+    color: $black;
+}
+.booktitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+.bookauthor {
+    font-size: 16px;
+    color: $gray;
+}
+@media (max-width: 767px) {
+    .sliderbox {
+        max-width: 667px;
+        min-height: 0;
+        min-width: 0;
+        overflow: hidden;
+        padding: 60px 120px;
+        margin-top: -30px;
+    }
+}

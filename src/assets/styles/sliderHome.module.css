@@ -1,0 +1,67 @@
+.sliderbox {
+  max-width: 1024px;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+  padding: 60px 120px;
+  margin-top: -30px;
+}
+
+.swiperwrapper {
+  overflow: visible !important;
+}
+
+.swiperslide {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.activeslide .bookbox {
+  transform: scale(1.28) rotate(-6.7deg) !important;
+}
+
+.bookindex {
+  position: absolute;
+  margin-top: -291.6666666667px;
+  font-size: 240px;
+  margin-left: -108.3333333333px;
+  font-weight: 700;
+  z-index: -2;
+}
+
+.bookimage {
+  width: 188.3333333333px;
+  height: 301.6666666667px;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+.bookbox {
+  text-align: center;
+  width: 220px;
+  transition: all 0.3s ease-in-out;
+  color: #19191b;
+}
+
+.booktitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.bookauthor {
+  font-size: 16px;
+  color: #a9a9a9;
+}
+
+@media (max-width: 767px) {
+  .sliderbox {
+    max-width: 667px;
+    min-height: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 60px 120px;
+    margin-top: -30px;
+  }
+}/*# sourceMappingURL=sliderHome.module.css.map */

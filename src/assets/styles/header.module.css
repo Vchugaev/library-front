@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat.ttf");
+}
+* {
+  font-family: montserrat;
+}
+
+form {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 0 0 30px;
+}
+
+input[type=search] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+input[type=search]::-moz-placeholder {
+  color: #a9a9a9;
+}
+
+input[type=search]::placeholder {
+  color: #a9a9a9;
+}
+
+form.nosubmit {
+  border: none;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 100px;
+}
+.main * {
+  margin: auto 0;
+}
+
+.register {
+  padding: 7px 10px;
+  color: white;
+  background-color: #d45555;
+  border-radius: 10px;
+}
+
+.signin {
+  padding: 7px 10px;
+  color: white;
+  background-color: #19191b;
+  border-radius: 10px;
+}
+
+.registerBox {
+  display: flex;
+  gap: 24px;
+}
+
+.publish {
+  border: none;
+  outline: none;
+  background: #d45555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+input.nosubmit {
+  padding: 9px 4px 9px 74px;
+  background: transparent url("../images/search.png") no-repeat 32px;
+  background-color: #f6f6f6;
+  height: 60px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  background-color: white;
+  max-height: 550px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.item {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.bookimage {
+  width: 80px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.bookbox {
+  display: flex;
+  gap: 20px;
+  color: #19191b;
+}
+.bookbox span {
+  word-break: break-all;
+}
+.bookbox .bookinfo {
+  display: flex;
+  flex-direction: column;
+}
+.bookbox .descriptionbook {
+  color: #a9a9a9;
+  margin: 5px 0;
+}
+.bookbox .titlebook {
+  font-size: 18px;
+  color: #19191b;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin: 35px 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .publish {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  input.nosubmit {
+    margin: 0;
+  }
+}/*# sourceMappingURL=header.module.css.map */

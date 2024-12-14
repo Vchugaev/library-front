@@ -1,0 +1,36 @@
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.main {
+  margin-left: 100px;
+}
+
+.input {
+  background: #f6f6f6;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.publish {
+  border: none;
+  outline: none;
+  background: #d45555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 200px;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.bookbuttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}/*# sourceMappingURL=publish.module.css.map */

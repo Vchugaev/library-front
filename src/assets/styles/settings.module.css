@@ -1,0 +1,66 @@
+.main {
+  max-width: 1340px;
+  margin-left: 100px;
+}
+
+.gradientbox {
+  background: linear-gradient(0.25turn, #d45555, #ffd6d6);
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+}
+
+.label {
+  color: #19191b;
+  font-size: 16px;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background: #f6f6f6;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.inputmain {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 100%;
+  gap: 40px;
+}
+
+.labelinputbox {
+  width: 45%;
+}
+
+.savebutton {
+  margin-top: 30px;
+  background: #d45555;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin: 0 20px;
+    margin-bottom: 100px;
+  }
+  .inputmain {
+    flex-direction: column;
+    width: auto;
+  }
+  .labelinputbox {
+    width: 100%;
+  }
+}/*# sourceMappingURL=settings.module.css.map */

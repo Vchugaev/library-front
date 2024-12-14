@@ -1,0 +1,70 @@
+.booksbox {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hr {
+  height: 1px;
+  background: #a9a9a9;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.main {
+  margin-left: 100px;
+}
+
+.title {
+  margin: 20px 0;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+.bookimage {
+  width: 220px;
+  height: 338px;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+.bookbox {
+  text-align: center;
+  width: 220px;
+  color: #19191b;
+  transition: all 200ms;
+}
+.bookbox:hover .addBookmark {
+  opacity: 1;
+}
+
+.addBookmark {
+  padding: 8px 8px 8px 12px;
+  border-radius: 10px;
+  background: #19191b;
+  cursor: pointer;
+  position: relative;
+  margin-left: 80%;
+  margin-top: -10%;
+  opacity: 0;
+  transition: opacity 0.2s ease, visibility 0.3s ease;
+  z-index: 5;
+}
+
+.booktitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.bookauthor {
+  font-size: 16px;
+  color: #a9a9a9;
+}
+
+.bookrating {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}/*# sourceMappingURL=bookmarks.module.css.map */

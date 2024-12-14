@@ -1,0 +1,23 @@
+.layoutcontainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.maincontent {
+    flex-grow: 1;
+}
+.phonebox {
+    display: none;
+}
+@media (max-width: 767px) {
+    .asidebox {
+        display: none;
+    }
+    .phonebox {
+        display: block;
+    }
+    .layoutcontainer {
+        display: block;
+    }
+}

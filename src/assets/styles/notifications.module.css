@@ -1,0 +1,44 @@
+.main {
+  margin-left: 100px;
+}
+
+.bookimage {
+  width: 150px;
+  height: 150px;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+.notebox {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+.hr {
+  height: 1px;
+  background: #e7e7e7;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.notemain {
+  display: flex;
+  flex-direction: column;
+}
+.notemain a {
+  color: #19191b;
+}
+.notemain p {
+  max-width: 5100px;
+  word-break: break-all;
+}
+
+@media (max-width: 467px) {
+  .notebox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}/*# sourceMappingURL=notifications.module.css.map */

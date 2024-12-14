@@ -1,0 +1,164 @@
+.profilecontainer {
+  max-width: 1440px;
+  margin-left: 100px;
+}
+
+.avatarbox {
+  height: 140px;
+  border-radius: 50%;
+  border: 6px solid white;
+  width: auto !important;
+  background-size: cover;
+  display: flex;
+}
+.avatarbox .customuploadavatar {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 200ms;
+}
+.avatarbox .customuploadavatar:hover {
+  opacity: 1;
+}
+
+.booksbox {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.bannerBox {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+  align-items: center;
+}
+.bannerBox .customupload {
+  color: rgb(141, 141, 141);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 200ms;
+}
+.bannerBox .customupload:hover {
+  opacity: 1;
+}
+
+.inputbanner,
+.inputavatar {
+  cursor: pointer;
+  display: none;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  margin-left: 60px;
+  margin-top: -70px;
+  border-radius: 50%;
+  border: 6px solid white;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+.avatarbox {
+  display: flex;
+  width: 100%;
+}
+.avatarbox .username {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 12px;
+}
+.avatarbox .bio {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+
+.biobox {
+  display: flex;
+  font-size: 14px;
+  gap: 20px;
+}
+.biobox p,
+.biobox a {
+  font-weight: 600;
+  color: #19191b;
+}
+.biobox a {
+  text-decoration: underline;
+}
+
+.bookimage {
+  width: 220px;
+  height: 338px;
+  background: #f6f6f6;
+  border-radius: 20px;
+}
+
+.bookbox {
+  text-align: center;
+  width: 220px;
+  color: #19191b;
+}
+
+.booktitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.bookauthor {
+  font-size: 16px;
+  color: #a9a9a9;
+}
+
+.bookrating {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media (max-width: 767px) {
+  .profilecontainer {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 540px) {
+  .avatarbox {
+    flex-direction: column;
+    text-align: center;
+  }
+  .avatarbox > div {
+    margin: 0;
+  }
+  .avatar {
+    margin: auto;
+    margin-top: -70px;
+  }
+  .biobox {
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .booksbox {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=profile.module.css.map */

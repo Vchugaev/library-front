@@ -1,0 +1,58 @@
+$red: #d45555;
+$black: #19191b;
+$light-gray: #f6f6f6;
+$gray: #a9a9a9;
+
+.main {
+    margin-left: 100px;
+}
+
+.bookimage {
+    width: 220px;
+    height: 338px;
+    background: $light-gray;
+    border-radius: 20px;
+}
+
+
+
+.bookCard {
+    width: fit-content;
+}
+.booksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.bookInfo {
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .information {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .library {
+        border-radius: 0;
+        margin-bottom: 100px;
+    }
+    .categories {
+        margin-left: 0;
+    }
+    .categoriestitle {
+        margin-left: 0;
+    }
+    .librarymain {
+        width: 100%;
+    }
+    .main {
+        margin: 0 20px;
+    }
+}
