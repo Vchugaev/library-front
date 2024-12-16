@@ -100,7 +100,7 @@ export default function Home() {
               <h3 className={s.categoriestitle}>Откройте для себя популярные категории</h3>
               <div className={s.categories}>
                 {categories.map(({ id, name, icon }) => (
-                  <div key={id} className={s.category} onClick={() => handleCategoryClick(id)}>
+                  <div style={{ cursor: 'pointer' }} key={id} className={s.category} onClick={() => handleCategoryClick(id)}>
                     <img src={icon} alt={`${name} Icon`} />
                     <span>{name}</span>
                   </div>
